@@ -1,0 +1,8 @@
+---
+applications:
+- name: atom-node
+  instances: 1
+  memory: 128M
+  cpu: 64M
+  buildpacks:
+  - nodejs_buildpack
