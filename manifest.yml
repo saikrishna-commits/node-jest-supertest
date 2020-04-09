@@ -6,5 +6,4 @@ applications:
   cpu: 64M
   buildpacks:
   - nodejs_buildpack
-  command: node index.js
- 
+  command: npm start 
